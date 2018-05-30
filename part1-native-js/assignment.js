@@ -1,18 +1,16 @@
 // Define a function named createDiv that takes no arguments.
 // Return a <div> element.
 function createDiv() {
-  // return document.createElement('div');
+  return document.createElement('div');
 }
 
-
-
 // Define a function named createDivWithClass that takes one argument.
-//   className (string)
-//
 // Return a <div> element with the given className.
-
-
-
+function createDivWithClass(string) {
+  var newDiv =  document.createElement('div');
+  newDiv.className = string;
+  return newDiv;
+}
 
 // Define a function named updateTodoList that takes one argument.
 //   todoList (<ul> DOM element)
@@ -23,6 +21,9 @@ function createDiv() {
 //     TIP: Applying a CSS class means adding on top of what's already there.
 //   * Make no change otherwise
 
+function updateTodoList(element) {
+
+}
 
 
 // Define a function named createList that takes one argument.
